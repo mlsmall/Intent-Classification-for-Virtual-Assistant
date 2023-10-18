@@ -12,7 +12,7 @@ The 10 classes or intents are:
 * get_invoice
 * get_refund
 * payment_issue
-* get_refund
+* registration_problems
 
 ## Testing the Classifier
 To test the classifier run the following
