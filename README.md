@@ -28,6 +28,6 @@ classifier = pipeline("sentiment-analysis", model="maurosm/bert_classification_m
 classifier(text)
 ```
 
-The first time your run your file, a pytorch_model.bin will be downloaded. This file contains the parameters and weights of the trained model. 
+The first time the ```classifier``` above, a pytorch_model.bin file will be downloaded. This file contains the parameters and weights of the trained model. 
 To keep testing with different utterances just change the ```text``` in the code and run the python file again.
 
