@@ -15,8 +15,7 @@ The 10 classes or intents are:
 * registration_problems
 
 ## Testing the Classifier
-To test the classifier run the following
-```pip install transformers```
+To test the classifier run ```pip install transformers``` from a terminal
 and install PyTorch (https://pytorch.org/get-started/locally/)
 
 Then create a python file and run the following:
