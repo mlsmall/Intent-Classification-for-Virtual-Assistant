@@ -19,15 +19,16 @@ To test the classifier run the following
 ```pip install transformers```
 and install PyTorch (https://pytorch.org/get-started/locally/)
 
-Then, create a python file and run the following
-
-```text = "I need help setting up an account" # Type an utterance that would correspond to one of the ten intents listed above.
+Then create a python file and run the following:
+```
+text = "I need help setting up an account" # Type an utterance that would correspond to one of the ten intents listed above.
 
 import transformers
 from transformers import pipeline
 classifier = pipeline("sentiment-analysis", model="maurosm/bert_classification_model")
-classifier(text)```
+classifier(text)
+```
 
 The first time your run your file, a pytorch_model.bin will be downloaded. This file contains the parameters and weights of the trained model. 
-To keep testing with different utterances just change the '''text''' in the code and run the python file again.
+To keep testing with different utterances just change the ```text``` in the code and run the python file again.
 
