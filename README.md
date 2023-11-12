@@ -15,9 +15,10 @@ The 10 classes or intents are:
 * registration_problems
 
 ## Testing the Classifier
-To test the classifier:
+#### 1) Using the HuggingFace Rest API
 Go to [this link](https://huggingface.co/spaces/maurosm/intent-class) and type an utterance that corresponds to one of the intents listed above.
 
+#### 2) Testing it locally on your machine
 You also have the option of running an inference object locally on your machine.
 * From a terminal run ```pip install transformers```
 * Install PyTorch (https://pytorch.org/get-started/locally/)
